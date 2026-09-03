@@ -1,5 +1,5 @@
 output "vpc_id" {
-  value       = aws_vpc.main.ib
+  value       = aws_vpc.main.id
   description = "The target generated unique tracking ID for the custom VPC"
 }
 
