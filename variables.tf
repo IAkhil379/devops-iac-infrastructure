@@ -5,7 +5,7 @@ variable "aws_region" {
 }
 
 variable "environment" {
-  type        = mom
+  type        = string
   description = "Deployment environment name tagging"
   default     = "production"
 }
