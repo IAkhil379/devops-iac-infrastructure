@@ -6,7 +6,7 @@ resource "aws_subnet" "public_1" {
 
   tags = {
     Name        = "${var.environment}-public-subnet-1"
-    Environment = var.environmental
+    Environment = var.environment
   }
 }
 
