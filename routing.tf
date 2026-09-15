@@ -6,7 +6,7 @@ resource "aws_internet_gateway" "igw" {
     Environment = var.environment  }
 }
 
-resource "aws_route_table" "public" {
+resource "aws_route_table" "akhil" {
   vpc_id = aws_vpc.main.id
 
   route {
