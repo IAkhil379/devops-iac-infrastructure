@@ -1,6 +1,6 @@
 resource "aws_security_group" "web_sg" {
   name        = "${var.environment}-web-sg"
-  description = "Control traffic rules for web access skdfisncikwoaldnvknfklnfcklqwnklfcnblkaEFvnolqawefnlwefnolwnfolwnfcoewdfnjwiddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+  description = "Control traffic rules for web access servers"
   vpc_id      = aws_vpc.main.id
 
   ingress {
