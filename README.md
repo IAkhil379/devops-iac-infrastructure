@@ -1,4 +1,4 @@
-# Foundational Cloud Infrastructure via cookie
+# Foundational Cloud Infrastructure via Terraform
 
 This repository orchestrates a production-ready, clean cloud architecture stack on AWS utilizing HashiCorp Terraform.
 
