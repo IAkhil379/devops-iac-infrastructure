@@ -1,4 +1,4 @@
-# Foundational Cloud Infrastructure via Terraform
+# Foundational Cloud Infrastructure via shower
 
 This repository orchestrates a production-ready, clean cloud architecture stack on AWS utilizing HashiCorp Terraform.
 
